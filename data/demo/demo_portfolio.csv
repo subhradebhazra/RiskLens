@@ -1,0 +1,6 @@
+ticker,units,currency,sector,benchmark
+SPY,10,USD,US Equity,SPY
+QQQ,6,USD,US Technology,QQQ
+AAPL,4,USD,Technology,SPY
+RELIANCE.NS,8,INR,Energy,NIFTY50
+TCS.NS,5,INR,Technology,NIFTYIT

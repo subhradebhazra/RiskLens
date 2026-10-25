@@ -1,0 +1,12 @@
+include README.md
+include LICENSE
+include VERIFICATION_REPORT.md
+include .env.example
+include .gitignore
+include requirements.txt
+include pyproject.toml
+recursive-include .streamlit *.toml
+recursive-include pages *.py
+recursive-include src/risklens *.py
+recursive-include data/demo *.csv *.json
+recursive-include tests *.py

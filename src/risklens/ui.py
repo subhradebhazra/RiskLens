@@ -233,6 +233,8 @@ def header(st, title: str, subtitle: str) -> None:
         pass
     inject_institutional_theme(st)
     render_navigation_bar(st)
+    from risklens.ai.floating_chat import render_floating_chat
+    render_floating_chat(st)
     safe_title = escape(str(title))
     safe_subtitle = escape(str(subtitle))
     st.markdown(
